@@ -12,3 +12,9 @@ O aplicativo utiliza recursos como animação, geração de números aleatórios
 
 Este aplicativo é apenas um exemplo simples e pode ser usado como ponto de partida para desenvolver jogos mais complexos ou explorar recursos adicionais do Android.
 
+
+## Imagens do projeto
+<div align="center" style="display: inline_block">
+    <img src="https://github.com/jbsousa/img_cara_ou_coroa/blob/main/MainActivity.PNG" alt="Tela Principal" style="width: 25%;">
+    <img src="https://github.com/jbsousa/img_cara_ou_coroa/blob/main/ResultActivity.PNG" alt="Tela secundária" style="width: 25%;">
+</div>
