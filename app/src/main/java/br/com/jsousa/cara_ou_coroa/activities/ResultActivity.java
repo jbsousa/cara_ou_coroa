@@ -39,8 +39,10 @@ public class ResultActivity extends AppCompatActivity {
 
         imageResult.animate()
                 .rotationYBy(-270)
-                .setDuration(100)
+                .setDuration(250)
                 .setInterpolator(new AccelerateInterpolator())
+                .scaleX(1.5f)
+                .scaleY(1.5f)
                 .setListener(new Animator.AnimatorListener() {
                     @Override
                     public void onAnimationStart(@NonNull Animator animation) {
@@ -52,7 +54,9 @@ public class ResultActivity extends AppCompatActivity {
                         imageResult.setImageResource(imagesCoins[i]);
                         imageResult.animate()
                                 .rotationY(0)
-                                .setDuration(150)
+                                .setDuration(125)
+                                .scaleX(1f)
+                                .scaleY(1f)
                                 .setInterpolator(new DecelerateInterpolator())
                                 .setListener(null)
                                 .start();
