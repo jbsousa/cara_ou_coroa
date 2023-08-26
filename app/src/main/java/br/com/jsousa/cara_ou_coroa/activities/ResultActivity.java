@@ -7,6 +7,7 @@ import android.view.animation.AccelerateInterpolator;
 import android.view.animation.DecelerateInterpolator;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -29,6 +30,12 @@ public class ResultActivity extends AppCompatActivity {
 
         imageResult     =   findViewById(R.id.imageViewResult);
         buttonBack      =   findViewById(R.id.buttonBack);
+
+        Toast.makeText(
+                getApplicationContext(),
+                "Toque na moeda",
+                Toast.LENGTH_LONG
+                ).show();
 
         buttonBack.setOnClickListener(view -> onBackPressed());
     }
