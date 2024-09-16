@@ -34,7 +34,7 @@ public class ResultActivity extends AppCompatActivity {
         Toast.makeText(
                 getApplicationContext(),
                 "Toque na moeda",
-                Toast.LENGTH_LONG
+                Toast.LENGTH_SHORT
                 ).show();
 
         buttonBack.setOnClickListener(view -> onBackPressed());
