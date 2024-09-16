@@ -4,14 +4,14 @@ plugins {
 
 android {
     namespace 'br.com.jsousa.cara_ou_coroa'
-    compileSdk 33
+    compileSdk 34
 
     defaultConfig {
         applicationId "br.com.jsousa.cara_ou_coroa"
         minSdk 21
-        targetSdk 33
-        versionCode 1
-        versionName "1.0"
+        targetSdk 34
+        versionCode 4
+        versionName "1.1"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
